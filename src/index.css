@@ -18,8 +18,8 @@
   --color-pink-light: #e9cce1;
   --color-pink-base: #c257a4;
   --color-pink-dark: #884074;
-
+  /* Fonte importada do GoogleFonts e colocada no index.html para todo projeto */
   --font-sans: "Cairo", sans-serif;
-
+  /* Shadow vindo do figma */
   --shadow-sm: 0px 4px 8px 0px rgba(54, 23, 45, 0.05);
 }
