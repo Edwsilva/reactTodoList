@@ -28,9 +28,9 @@ export default function App() {
         <Icon svg={TrashIcon} className="fill-green-base" />
         <Icon svg={CheckIcon} />
         <Icon svg={PlusIcon} />
-        <Icon svg={SpinnerIcon} animate />
-        <Icon svg={PencilIcon} />
-        <Icon svg={XIcon} />
+        <Icon svg={SpinnerIcon} animate className="fill-pink-dark" />
+        <Icon svg={PencilIcon} className="fill-gray-300" />
+        <Icon svg={XIcon} className="fill-pink-dark" />
       </div>
     </div>
   );
