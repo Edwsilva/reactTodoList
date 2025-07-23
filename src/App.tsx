@@ -18,7 +18,7 @@ import InputText from "./components/input-text";
 
 export default function App() {
   return (
-    <div className="grid gap-3">
+    <div className="grid gap-10">
       <div className="flex flex-col gap-2">
         <Text variant="body-sm-bold" className="text-pink-base">
           Olá mundo!
@@ -42,25 +42,24 @@ export default function App() {
         <Badge variant="primary" className="secondary">
           2 de 5
         </Badge>
+      </div>
+      <div>
+        <Button icon={PlusIcon}>Nova tarefa</Button>
+        <Button icon={PlusIcon} variant="secondary">
+          Nova tarefa
+        </Button>
+        <Button icon={PlusIcon} variant="secondary" size="lg">
+          Nova tarefa
+        </Button>
+      </div>
+      <div className="flex gap-1">
+        <ButtonIcon icon={TrashIcon} disabled />
+        <ButtonIcon icon={TrashIcon} variant="secondary" />
+        <ButtonIcon icon={TrashIcon} variant="tertiary" />
+      </div>
 
-        <div>
-          <Button icon={PlusIcon}>Nova tarefa</Button>
-          <Button icon={PlusIcon} variant="secondary">
-            Nova tarefa
-          </Button>
-          <Button icon={PlusIcon} variant="secondary" size="lg">
-            Nova tarefa
-          </Button>
-        </div>
-        <div className="flex gap-1">
-          <ButtonIcon icon={TrashIcon} disabled />
-          <ButtonIcon icon={TrashIcon} variant="secondary" />
-          <ButtonIcon icon={TrashIcon} variant="tertiary" />
-        </div>
-
-        <div>
-          <InputText />
-        </div>
+      <div>
+        <InputText />
       </div>
     </div>
   );
