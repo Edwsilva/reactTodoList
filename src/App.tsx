@@ -16,10 +16,11 @@ import Button from "./components/button";
 import ButtonIcon from "./components/button-icon";
 import InputText from "./components/input-text";
 import InputCheckbox from "./components/input-checkbox";
+import Card from "./components/card";
 
 export default function App() {
   return (
-    <div className="grid gap-10">
+    <div className="grid gap-8">
       <div className="flex flex-col gap-2">
         <Text variant="body-sm-bold" className="text-pink-base">
           Olá mundo!
@@ -64,6 +65,12 @@ export default function App() {
       </div>
       <div>
         <InputCheckbox />
+      </div>
+      <div>
+        <Card size="md">Olá mundo!</Card>
+      </div>
+      <div>
+        <Card size="lg">Olá mundo!</Card>
       </div>
     </div>
   );
