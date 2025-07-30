@@ -10,8 +10,10 @@ export default function LayoutMain() {
       </Container>
 
       <main className="mt-4 md:mt-8">
-        CONTEÚDO PRINCIPAL
-        {/* <Outlet /> */}
+        {/* CONTEÚDO PRINCIPAL */}
+        {/* O <Outlet /> é um componente do React Router (v6+) que atua como um 
+        de inserção para os componentes de rotas filhas. */}
+        <Outlet />
       </main>
 
       <footer className="my-5 md:my-10">
