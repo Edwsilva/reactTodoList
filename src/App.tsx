@@ -5,7 +5,6 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<PageComponents />} />
         <Route path="componentes" element={<PageComponents />} />
       </Routes>
     </BrowserRouter>
